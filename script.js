@@ -9,7 +9,8 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
     if (enteredUsername === validUsername && enteredPassword === validPassword) {
         alert('Login successful!');
-    } else {
+    } else 
+    {
         const errorMessage = document.getElementById('errorMessage');
         errorMessage.style.display = 'block';
     }
